@@ -1,6 +1,7 @@
 {
     "name": "jnjxp/phender",
     "description": "CLI php templates",
+    "license" : "MIT",
     "type": "library",
     "require": {
     },
@@ -14,5 +15,6 @@
         "psr-4": {
             "Phender\\": "src/"
         }
-    }
+    },
+    "bin": ["bin/phender"]
 }
