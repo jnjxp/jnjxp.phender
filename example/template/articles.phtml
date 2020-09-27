@@ -1,0 +1,13 @@
+<?php
+
+$this->title = 'Articles';
+
+?>
+<h1>Articles</h1>
+
+<div class="articles">
+    <?php foreach ($articles as $article) : ?>
+        <?= $this->render('_article.php', $article); ?>
+    <?php endforeach; ?>
+</div>
+
